@@ -1,0 +1,6 @@
+{
+  "name": "Asistente de Alta de Autónomos con IA",
+  "description": "Una aplicación web mejorada para guiar a los usuarios a través del proceso de registro como trabajador autónomo en España. Incluye un asistente de IA de Gemini para ayudar a generar descripciones de actividades profesionales, y permite exportar los datos en múltiples formatos.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
