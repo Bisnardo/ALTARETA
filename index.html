@@ -55,5 +55,17 @@
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
+<!-- PRUEBA: formulario Netlify añadido -->
+<form name="contacto" method="POST" netlify>
+  <input type="hidden" name="form-name" value="contacto">
+
+  <label for="name">Nombre:</label>
+  <input id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input id="email" type="email" name="email" required>
+
+  <button type="submit">Enviar</button>
+</form>
 </body>
 </html>
