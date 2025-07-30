@@ -55,9 +55,11 @@
     <div id="root"></div>
     <script type="module" src="./index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
-<!-- PRUEBA: formulario Netlify añadido -->
-<form name="contacto" method="POST" netlify>
-  <input type="hidden" name="form-name" value="contacto">
+
+<!-- Formulario Formspree -->
+<form action="https://formspree.io/f/mdkddajn" method="POST">
+  <!-- Captcha desactivado (opcional) -->
+  <input type="hidden" name="_captcha" value="false">
 
   <label for="name">Nombre:</label>
   <input id="name" name="name" required>
